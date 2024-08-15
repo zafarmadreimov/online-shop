@@ -245,10 +245,12 @@ const ShoppingCart = () => {
 						<h1 className='mt-5 text-[36px] font-bold text-slate-800 lg:text-[50px]'>
 							Shopping cart is empty
 						</h1>
-						<p className='text-slate-600 mt-5 lg:text-lg'>
-							The page you are looking for doesn't exist or <br />
-							has been removed.
-						</p>
+{/* eslint-disable react/no-unescaped-entities */}
+<p className='text-slate-600 mt-5 lg:text-lg'>
+    The page you are looking for doesn't exist or <br />
+    has been removed.
+</p>
+{/* eslint-enable react/no-unescaped-entities */}
 						<Link href={'/products'}>
 							<button className='button bg-blue-600 mt-4 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black'>
 								Products
