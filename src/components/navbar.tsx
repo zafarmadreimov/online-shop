@@ -32,7 +32,7 @@ const Navbar = () => {
 						Contacts
 					</Link>
 				</nav>
-				<Link href={'/shopping-cart'}>
+				<Link href={'/shopping-card'}>
 					<button className='button bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black'>
 						My bag
 					</button>
